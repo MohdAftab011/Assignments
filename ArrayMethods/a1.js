@@ -79,5 +79,11 @@ const Final = Array.from({length : ArrayLike.length},(c,index) => ArrayLike[inde
 
 console.log(Final);
 //Q10
+const Number2 = [1,2,3,4,5];
 
+Number2.forEach(function (num,idx,array){
+    array[idx]= num*2;
+});
+
+console.log(Number2);
 
