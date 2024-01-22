@@ -33,7 +33,7 @@ console.log("C");
 //           C
 //           B
 
-//Q5 ****
+//Q5 **** closure
 for (var i = 0; i < 3; i++) {
     setTimeout(() => console.log(i), 1000);
 }
