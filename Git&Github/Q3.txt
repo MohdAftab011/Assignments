@@ -1,0 +1,14 @@
+A .gitignore file specifies files/folders Git should ignore (e.g., logs, dependencies, secrets).
+Why it matters:
+
+Avoids tracking unnecessary files (e.g., node_modules, .env).
+
+Prevents accidental exposure of sensitive data.
+
+
+Example:
+
+# .gitignore  
+node_modules/  
+.env  
+*.log  

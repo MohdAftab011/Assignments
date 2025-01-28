@@ -1,0 +1,6 @@
+GitHub is a cloud platform for hosting Git repositories. It facilitates:
+
+Collaboration: Pull requests, code reviews, and issue tracking.
+
+Version Control: Remote backups and branch management.
+Alternatives: GitLab, Bitbucket, Azure DevOps, Gitea.

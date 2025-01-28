@@ -1,0 +1,14 @@
+Working Directory: Where you edit files (untracked or modified).
+
+Staging Area (Index): Files added with git add are staged for committing.
+
+Repository (Local/Remote): Commits (git commit) save staged changes permanently.
+
+Push to remote repositories (e.g., GitHub) with git push.
+
+
+Example :
+
+git add .          # Stage all changes  
+git commit -m "Fix login bug"  
+git push origin main  

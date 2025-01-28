@@ -1,0 +1,25 @@
+1. Fork the project repository (creates your copy).
+
+2. Clone your fork locally:
+
+
+3.
+git clone https://github.com/your-username/repo.git  
+Create a branch:
+
+4.
+git checkout -b feature-branch  
+Make changes and commit:
+
+5.
+git add .  
+git commit -m "Add new feature"  
+Push to your fork:
+
+git push origin feature-branch  
+
+6.
+Open a Pull Request (PR) on GitHub to merge your changes into the original repo.
+
+7.
+Address feedback (if any) and wait for the maintainer to merge.
