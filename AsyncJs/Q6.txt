@@ -1,0 +1,26 @@
+localStorage
+Purpose: Used to store data in the browser with no expiration time. Data persists even after the browser is closed.
+Example:
+
+// Store data
+localStorage.setItem('username', 'JohnDoe');
+
+// Retrieve data
+const username = localStorage.getItem('username');
+console.log(username);
+
+// Remove data
+localStorage.removeItem('username');
+sessionStorage
+Purpose: Used to store data for the duration of the page session. Data is cleared once the browser tab is closed.
+Example:
+
+// Store data
+sessionStorage.setItem('sessionKey', '12345');
+
+// Retrieve data
+const sessionKey = sessionStorage.getItem('sessionKey');
+console.log(sessionKey);
+
+// Remove data
+sessionStorage.removeItem('sessionKey');

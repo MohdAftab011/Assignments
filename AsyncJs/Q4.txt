@@ -1,0 +1,39 @@
+Callbacks
+A callback is a function passed as an argument to another function and executed after some operation is completed.
+
+Example with Callbacks:
+
+function fetchData(callback) {
+  setTimeout(() => {
+    callback("Data received");
+  }, 1000);
+}
+
+fetchData((data) => console.log(data));
+Promises
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. It improves readability and error handling.
+
+Example with Promises:
+
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("Data received");
+    }, 1000);
+  });
+}
+
+fetchData().then((data) => console.log(data));
+Why Promises Are Preferred
+Avoid Callback Hell:
+
+Promises reduce nesting and improve code readability compared to multiple nested callbacks.
+Better Error Handling:
+
+Promises use .catch() for error handling, making it easier to handle errors consistently.
+Chaining:
+
+Promises support chaining of .then() calls for sequential asynchronous operations.
+Integrated with Async/Await:
+
+Promises work seamlessly with async/await, making asynchronous code look synchronous.

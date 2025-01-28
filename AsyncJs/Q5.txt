@@ -1,0 +1,48 @@
+DOM API:
+
+Access and manipulate the Document Object Model (HTML structure).
+Example:
+
+document.getElementById('elementId');
+Fetch API:
+
+Perform HTTP requests to fetch resources.
+Example:
+
+fetch('https://api.example.com');
+Geolocation API:
+
+Access the user’s location.
+Example:
+
+navigator.geolocation.getCurrentPosition((position) => console.log(position));
+Canvas API:
+
+Create and manipulate 2D graphics on a web page.
+Example:
+
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+ctx.fillRect(10, 10, 100, 100);
+Web Storage API (localStorage and sessionStorage):
+
+Store data in the browser.
+Example:
+
+localStorage.setItem('key', 'value');
+WebSockets API:
+
+Enable real-time communication between a client and server.
+Example:
+
+const socket = new WebSocket('ws://example.com/socket');
+Notification API:
+
+Send notifications to users.
+Example:
+
+Notification.requestPermission().then((result) => {
+  if (result === 'granted') {
+    new Notification('Hello!');
+  }
+});

@@ -1,0 +1,32 @@
+Def : AJAX (Asynchronous JavaScript and XML) is a technique that uses the 
+XMLHttpRequest object to exchange data with a web server asynchronously. 
+This means the user can interact with the web page 
+while the data is being fetched or sent in the background.
+
+1. Create an instance of XMLHttpRequest:
+
+const xhr = new XMLHttpRequest();
+
+2. Configure the request with the HTTP method and URL:
+
+xhr.open('GET', 'https://api.example.com/data', true);
+
+
+3. Set request headers (if necessary):
+
+xhr.setRequestHeader('Content-Type', 'application/json');
+
+4. Add an event listener for the readystatechange or load event:
+
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    console.log(JSON.parse(xhr.responseText)); // Process the response
+  }
+};
+
+
+5.Send the request to the server:
+
+xhr.send();
+
+

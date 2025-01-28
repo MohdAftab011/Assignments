@@ -1,0 +1,8 @@
+Same-Origin Policy
+The same-origin policy is a security feature implemented in browsers to restrict how resources from one origin can interact with resources from another origin.
+
+An origin is defined by the protocol, host, and port of a URL.
+For example:
+http://example.com:80 and http://example.com:8080 are considered different origins because of different ports.
+http://example.com and https://example.com are different origins due to different protocols.
+The policy ensures that scripts running on one origin cannot interact with resources from another origin unless explicitly allowed. This prevents malicious cross-site attacks.
