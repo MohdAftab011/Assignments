@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment</title>
+  <!-- Inline styles -->
+  <style>
+    .internal {
+      color: green;
+    }
+    .inline_internal {
+      color: red;
+    }
+  </style>
+  <!-- Depending on the order, external wins between internal and external since it is imported after internal -->
+  <link rel="stylesheet" href="Task1.css" />
+</head>
+<body>
+  <div style="color: red;">Inline</div>
+  <div class="internal">Internal</div>
+  <div class="external">External</div>
+  <div style="color: blueviolet;" class="inline_internal">Inline + Internal</div>
+  <div class="int_external internal_ext">Internal + External</div>
+  <div style="color: blueviolet;" class="inline_internal_external">
+    Inline + Internal + External
+  </div>
+</body>
+</html>
