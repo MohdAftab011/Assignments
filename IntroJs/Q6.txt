@@ -1,0 +1,10 @@
+Descriptive names reduce ambiguity.
+Poor Example:
+
+let t = 10; // What does 't' represent?
+
+
+Improved Example:
+
+let timeoutSeconds = 10; // Clearly indicates purpose
+Using timeoutSeconds instead of t makes the code self-documenting and easier to debug.

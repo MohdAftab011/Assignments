@@ -1,0 +1,9 @@
+Variables store data for later use.
+ Declaring them with let ensures block-level scoping, preventing 
+ unintended side effects.
+
+ Example :
+
+ let count = 0; // Declare and initialize
+count = 5;     // Reassignment allowed
+// let count = 3; // Error: Cannot redeclare in the same scope

@@ -1,0 +1,16 @@
+Comments document code logic, aiding readability and maintenance.
+
+Single-line:
+
+// Check if user is logged in
+if (isLoggedIn) { ... }
+
+
+
+Multi-line:
+
+/* 
+Calculate the area of a circle:
+- radius: Input from user
+- Returns: Area value
+*/

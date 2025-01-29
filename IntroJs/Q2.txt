@@ -1,0 +1,15 @@
+HTML: Defines static content structure (e.g., text, images, links).
+Example: Creating a webpage with headings (<h1>) and a form (<form>).
+
+JavaScript: Adds interactivity and dynamic behavior.
+Example: Validating form inputs in real-time or fetching new data when a user scrolls.
+
+Use Cases:
+
+Use HTML to structure a button: <button id="submitBtn">Submit</button>.
+
+Use JavaScript to make it interactive:
+
+document.getElementById("submitBtn").addEventListener("click", () => {
+  alert("Form submitted!");
+});

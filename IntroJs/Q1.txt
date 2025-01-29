@@ -1,0 +1,8 @@
+JavaScript is a scripting language that enables dynamic and interactive web content. 
+It allows developers to manipulate webpage behavior, handle user interactions 
+(e.g., clicks, form submissions), update content without reloading the page 
+(via AJAX or Fetch API), and manage asynchronous operations. 
+Alongside HTML (structure) and CSS (styling), 
+JavaScript is a core technology for front-end web development. 
+It also extends to server-side programming (e.g., Node.js) and 
+powers frameworks like React and Angular for building complex applications.
